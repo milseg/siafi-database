@@ -7,7 +7,7 @@ O código SIAFI é útil para quem precisa implementar NFSe(Nota fiscal de servi
 ## 2. Instalação
 1. Navegue para a pasta sql, que contém os arquivos sql
 ```
-cd sql
+$ cd sql
 ```
 2. Conecte ao mysql pela linha de comando. Para este passo é necessário ter o mysql client instalado na sua linha de comando.
 ```
@@ -23,4 +23,4 @@ $ source City.sql
 Após o passo três o banco já estará pronto.
 
 ## 3. Bônus
-Caso você pense em internacionalização, todos os países do mundo estão no sql.
+Caso você pense em internacionalização, o banco contém todos os países do mundo.
