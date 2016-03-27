@@ -20,7 +20,7 @@ $ source Region.sql
 $ source Province.sql
 $ source City.sql
 ```
-Após o passo três o banco já estará pronto.
+Após processar, o banco já estará pronto.
 
 ## 3. Bônus
 Caso você pense em internacionalização, o banco contém todos os países do mundo.
