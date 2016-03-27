@@ -5,15 +5,15 @@ Um banco de dados geográfico em mysql contendo todas as cidades e estados do Br
 O código SIAFI é útil para quem precisa implementar NFSe(Nota fiscal de serviços eletrônicos) via webservice, visto que o código SIAFI é comumente um campo obrigatório na NFSe.
 
 ## 2. Instalação
-1. Navegue para a pasta sql, que contém os arquivos sql
+Navegue para a pasta sql, que contém os arquivos sql
 ```
 $ cd sql
 ```
-2. Conecte ao mysql pela linha de comando. Para este passo é necessário ter o mysql client instalado na sua linha de comando.
+Conecte ao mysql pela linha de comando. Para este passo é necessário ter o mysql client instalado na sua linha de comando.
 ```
 $ mysql -u <usuario> -p
 ```
-3. Use o comando source em cada um dos arquivos na seguinte ordem
+Use o comando source em cada um dos arquivos na seguinte ordem
 ```
 $ source Country.sql
 $ source Region.sql
